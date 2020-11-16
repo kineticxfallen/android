@@ -8,9 +8,6 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
   
-  <remote  name="kinetic"
-           fetch="https://github.com/kineticxfallen" />
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
@@ -694,11 +691,6 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   
-    <!-- Kinetic Repository -->
-  
-  <project name="android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="kinetic" revision="10.0"  />
-  <project name="android_vendor_xiaomi_wayne-common" path="vendor/xiaomi/wayne-common" remote="kinetic" revision="10.0"  />
-  <project name="android_vendor_xiaomi_jasmine_sprout" path="vendor/xiaomi/jasmine_sprout" remote="kinetic" revision="10.0"  />
 
   <include name="snippets/lineage.xml" />
 
